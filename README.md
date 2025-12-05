@@ -40,8 +40,8 @@ The application on the **ArgoCD UI** goes **OutOfSync** as expected
 
 <img width="1073" height="364" alt="Screenshot 2025-12-05 at 4 40 53 PM" src="https://github.com/user-attachments/assets/39c9b7bb-7c5e-41c4-85cf-ba4958350645" />
 
-The number od nginx pods have changed to 2.
+The number of nginx pods have changed to 2.
 <img width="1162" height="302" alt="Screenshot 2025-12-05 at 4 41 39 PM" src="https://github.com/user-attachments/assets/8e732bff-8872-477a-b73d-d5a402ab1774" />
 
-
+The same applies to manual changes made outside of Github to any Kubernetes object. Once we click on sync, ArgoCD should get rid of the changes made outside of Github to maintain the desired state as per the single source of truth, Git.
 
