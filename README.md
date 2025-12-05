@@ -29,6 +29,19 @@ The objects have been deployed successfully.
 <img width="1159" height="312" alt="Screenshot 2025-12-05 at 4 06 43 PM" src="https://github.com/user-attachments/assets/83c7e895-47ac-4e99-9bdb-887fdea126a6" />
 <img width="741" height="209" alt="Screenshot 2025-12-05 at 4 08 35 PM" src="https://github.com/user-attachments/assets/56311058-9673-4aab-948a-f54063075928" />
 
+If a change is made in one of the YAML files, replicas are set to '2' from '1'.
+
+<img width="580" height="365" alt="Screenshot 2025-12-05 at 4 21 10 PM" src="https://github.com/user-attachments/assets/9ba86ab1-e949-4605-b883-758726487596" />
+
+The application on the **ArgoCD UI** goes **OutOfSync** as expected
+<img width="613" height="412" alt="Screenshot 2025-12-05 at 4 21 28 PM" src="https://github.com/user-attachments/assets/7b0903a8-b36d-4717-9441-1211b1941e3b" />
+
+**Diff** section shows the exact change made to the deployment YAML which resulted in **OutOfSync**
+
+<img width="1073" height="364" alt="Screenshot 2025-12-05 at 4 40 53 PM" src="https://github.com/user-attachments/assets/39c9b7bb-7c5e-41c4-85cf-ba4958350645" />
+
+The number od nginx pods have changed to 2.
+<img width="1162" height="302" alt="Screenshot 2025-12-05 at 4 41 39 PM" src="https://github.com/user-attachments/assets/8e732bff-8872-477a-b73d-d5a402ab1774" />
 
 
 
